@@ -1,0 +1,30 @@
+0 verbose cli /home/nidhal/.nvm/versions/node/v24.11.0/bin/node /home/nidhal/.nvm/versions/node/v24.11.0/bin/npm
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:/home/nidhal/.nvm/versions/node/v24.11.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/nidhal/devops-docker-ci/app/.npmrc
+5 silly config load:file:/home/nidhal/.npmrc
+6 silly config load:file:/home/nidhal/.nvm/versions/node/v24.11.0/etc/npmrc
+7 verbose title npm init
+8 verbose argv "init" "--yes"
+9 verbose logfile logs-max:10 dir:/home/nidhal/.npm/_logs/2026-01-23T13_22_36_200Z-
+10 verbose logfile /home/nidhal/.npm/_logs/2026-01-23T13_22_36_200Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly package data {
+13 silly package data   name: 'app',
+13 silly package data   version: '1.0.0',
+13 silly package data   description: '',
+13 silly package data   main: 'index.js',
+13 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+13 silly package data   keywords: [],
+13 silly package data   author: '',
+13 silly package data   license: 'ISC',
+13 silly package data   type: 'commonjs'
+13 silly package data }
+14 verbose cwd /home/nidhal/devops-docker-ci/app
+15 verbose os Linux 5.15.0-139-generic
+16 verbose node v24.11.0
+17 verbose npm  v11.6.1
+18 verbose exit 0
+19 info ok

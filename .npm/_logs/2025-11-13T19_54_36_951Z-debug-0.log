@@ -1,0 +1,13 @@
+0 verbose cli /home/nidhal/.nvm/versions/node/v24.11.0/bin/node /home/nidhal/.nvm/versions/node/v24.11.0/bin/npm
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:/home/nidhal/.nvm/versions/node/v24.11.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/nidhal/portfolio-pro/client/.npmrc
+5 silly config load:file:/home/nidhal/.npmrc
+6 silly config load:file:/home/nidhal/.nvm/versions/node/v24.11.0/etc/npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:/home/nidhal/.npm/_logs/2025-11-13T19_54_36_951Z-
+10 verbose logfile /home/nidhal/.npm/_logs/2025-11-13T19_54_36_951Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files

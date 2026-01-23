@@ -1,0 +1,19 @@
+[0;1;32m●[0m jenkins.service - Jenkins Continuous Integration Server
+     Loaded: loaded (/lib/systemd/system/jenkins.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Thu 2025-11-20 11:21:11 PST; 28s ago
+   Main PID: 3717 (java)
+      Tasks: 51 (limit: 2202)
+     Memory: 330.4M
+     CGroup: /system.slice/jenkins.service
+             └─3717 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8081
+
+Nov 20 11:21:09 ubuntu jenkins[3717]: 2025-11-20 19:21:09.942+0000 [id=32]        INFO        jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+Nov 20 11:21:10 ubuntu jenkins[3717]: 2025-11-20 19:21:10.300+0000 [id=30]        INFO        h.p.b.g.GlobalTimeOutConfiguration#load: global timeout not set
+Nov 20 11:21:11 ubuntu jenkins[3717]: 2025-11-20 19:21:11.290+0000 [id=32]        INFO        jenkins.InitReactorRunner$1#onAttained: System config loaded
+Nov 20 11:21:11 ubuntu jenkins[3717]: 2025-11-20 19:21:11.293+0000 [id=32]        INFO        jenkins.InitReactorRunner$1#onAttained: System config adapted
+Nov 20 11:21:11 ubuntu jenkins[3717]: 2025-11-20 19:21:11.349+0000 [id=30]        INFO        jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+Nov 20 11:21:11 ubuntu jenkins[3717]: 2025-11-20 19:21:11.356+0000 [id=29]        INFO        jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+Nov 20 11:21:11 ubuntu jenkins[3717]: 2025-11-20 19:21:11.373+0000 [id=32]        INFO        j.util.groovy.GroovyHookScript#execute: Executing /var/lib/jenkins/init.groovy.d/create-admin.groovy
+Nov 20 11:21:11 ubuntu jenkins[3717]: 2025-11-20 19:21:11.701+0000 [id=31]        INFO        jenkins.InitReactorRunner$1#onAttained: Completed initialization
+Nov 20 11:21:11 ubuntu jenkins[3717]: 2025-11-20 19:21:11.728+0000 [id=23]        INFO        hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+Nov 20 11:21:11 ubuntu systemd[1]: Started Jenkins Continuous Integration Server.

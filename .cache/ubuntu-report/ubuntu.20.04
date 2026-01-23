@@ -1,0 +1,72 @@
+{
+  "Version": "20.04",
+  "OEM": {
+    "Vendor": "VMware, Inc.",
+    "Product": "VMware Virtual Platform",
+    "Family": ""
+  },
+  "BIOS": {
+    "Vendor": "Phoenix Technologies LTD",
+    "Version": "6.00"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "2",
+    "Threads": "1",
+    "Cores": "1",
+    "Sockets": "2",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "186",
+    "Stepping": "2",
+    "Name": "13th Gen Intel(R) Core(TM) i5-13500H",
+    "Hypervisor": "VMware",
+    "VirtualizationType": "full"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "15ad",
+      "Model": "0405"
+    }
+  ],
+  "RAM": 2,
+  "Disks": [
+    21.5
+  ],
+  "Partitions": [
+    20,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1718x778",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "America/Los_Angeles",
+  "Install": {
+    "Media": "Ubuntu 20.04.4 LTS \"Focal Fossa\" - Release amd64 (20220223)",
+    "Type": "GTK",
+    "OEM": false,
+    "DownloadUpdates": false,
+    "Language": "en",
+    "Minimal": true,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "7": "start_install",
+      "14": "user_done",
+      "544": "done"
+    }
+  }
+}
